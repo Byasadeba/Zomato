@@ -163,7 +163,114 @@ header{
 footer a{
     text-decoration: none;
 }
-@media screen and (max-width :  462px) {
+@media only screen and (max-width :  1280px) {
+    .locations-div{
+        margin-bottom: 10px;
+    }
+    #logo{
+        margin-top: 11%;
+    }
+    #heading{
+        font-size: 55px;
+        margin-left: 24%;
+        margin-top: 23%;
+    }
+    .searchbar{
+        margin-top: 400px;
+        margin-left: 310px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width :  1080px) {
+    .locations-div{
+        margin-bottom: 10px;
+    }
+    #logo{
+        margin-top: 11%;
+    }
+    #heading{
+        font-size: 55px;
+        margin-left: 21%;
+        margin-top: 26%;
+    }
+    .searchbar{
+        margin-top: 401px;
+        margin-left: 232px;
+        width: 115%;
+    }
+}
+@media only screen and (max-width : 945px) {
+    .locations-div{
+        margin-bottom: 10px;
+    }
+    #heading{
+        font-size: 45px;
+        margin-left: 26%;
+        margin-top: 29%;
+    }
+    .searchbar{
+        margin-top: 400px;
+        margin-left: 209px;
+        width: 120%;
+    }
+}
+@media only screen and (max-width : 800px) {
+    .locations-div{
+        margin-bottom: 10px;
+    }
+    #logo{
+        margin-left: 40%;
+    }
+    #heading{
+        font-size: 42px;
+        margin-left: 17%;
+        margin-top: 34%;
+    }
+    .searchbar{
+        margin-top: 370px;
+        margin-left: 116px;
+        width: 133%;
+    }
+}
+@media only screen and (max-width : 600px) {
+    .locations-div{
+        margin-bottom: 10px;
+    }
+    #logo{
+        margin-left: 35%;
+        margin-top: 13%;
+    }
+    #heading{
+        font-size: 40px;
+        margin-left: 9%;
+        margin-top: 42%;
+    }
+    .searchbar{
+        margin-top: 370px;
+        margin-left: 34px;
+        width: 168%;
+    }
+}
+@media only screen and (max-width : 500px) {
+    .locations-div{
+        margin-bottom: 10px;
+    }
+    #logo{
+        margin-left: 35%;
+        margin-top: 20%;
+    }
+    #heading{
+        font-size: 35px;
+        margin-left: 9%;
+        margin-top: 55%;
+    }
+    .searchbar{
+        margin-top: 370px;
+        margin-left: 11px;
+        width: 186%;
+    }
+}
+@media screen and (max-width :  400px) {
     .locations-div{
         margin-bottom: 10px;
     }
@@ -182,32 +289,3 @@ footer a{
         width: 184%;
     }
 }
-/* @media screen and (max-width : 945px) {
-    .locations-div{
-        margin-bottom: 10px;
-    }
-    #heading{
-        font-size: 45px;
-        margin-left: 26%;
-        margin-top: 29%;
-    }
-    .searchbar{
-        margin-top: 400px;
-        margin-left: 209px;
-        width: 120%;
-    }
-} */
-/* @media screen and (max-width : 800px) {
-    .locations-div{
-        margin-bottom: 10px;
-    }
-    #heading{
-        font-size: 40px;
-        margin-left: 26%;
-        margin-top: 32%;
-    }
-    .searchbar{
-        margin-top: 370px;
-        margin-left: 260px;
-    }
-} */
