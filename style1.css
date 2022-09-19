@@ -4,6 +4,10 @@ html,body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
 .zomatologo{
     width:200px;
 }
@@ -100,24 +104,44 @@ header{
     width: 100%;
     margin-top: 200px;
 }
-#popular-locations{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.popular-heading{
-    font-size: 40px;
-    color: black;
-}
-.locations-div{
-    width:100%;
-    height:60px;
-    background-color: white;
-    border: 2px solid #ccc;
+.Places-main  {
+    border: 1px solid #eaeaea;
+    width: 350px;
+    height: 80px;
     border-radius: 10px;
-    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301)
 }
-.locations-div:hover{
-    box-shadow: 1px 1px 5px #ccc;
+.Places-main:hover{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.500)
+                ,0px 3px 5px rgba(0, 0, 0, 0.500)
+}
+
+.Places-main .left{
+    margin: 3% 0 0 3%;
+}
+.see-more  {
+    display: flex;
+    justify-content: space-between;
+}
+.see-more a{
+    display: flex;
+    width: 100%;
+    margin:  9px 2px 6px 0px;
+}
+.Places-main a {
+    display: flex ;
+    justify-content: space-between;
+}
+.Places-main .rgt{
+    float: right;
+    margin: 7% 5% 0% 0;
+}
+.place-grid{
+    margin: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
 #get-zomato-app{
     margin-top:50px;
@@ -139,26 +163,26 @@ header{
 footer a{
     text-decoration: none;
 }
-@media screen and (max-width : 550px) {
+@media screen and (max-width :  462px) {
     .locations-div{
         margin-bottom: 10px;
     }
     #logo{
-        margin-left:34%;
-        margin-top:17%;  
+        margin-left:33%;
+        margin-top:29%;  
     }
     #heading{
-        font-size: 35px;
+        font-size: 30px;
         margin-left: 12%;
-        margin-top: 52%;
+        margin-top: 77%;
     }
     .searchbar{
-        margin-top: 391px;
-        margin-left: 105px;
-        width: 125%;
+        margin-top: 470px;
+        margin-left: 21px;
+        width: 184%;
     }
 }
-@media screen and (max-width : 945px) {
+/* @media screen and (max-width : 945px) {
     .locations-div{
         margin-bottom: 10px;
     }
@@ -172,7 +196,7 @@ footer a{
         margin-left: 209px;
         width: 120%;
     }
-}
+} */
 /* @media screen and (max-width : 800px) {
     .locations-div{
         margin-bottom: 10px;
