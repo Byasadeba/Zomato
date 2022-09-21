@@ -47,21 +47,23 @@ header{
 #logo:hover{
     border:2px solid #1589FF;
     color: #1589FF;
+    transform:scale(1.1)
 }
 #logo span{
     position:absolute;
     margin-left:14%;
     margin-top:32%;  
 }
-/* #logo span:hover{
-    color: #1589FF;
-} */
 #heading{
     font-size:60px;
     color: aliceblue;
     margin-left: 26%;
     margin-top:18%;
     position: absolute;
+    
+}
+#heading span:hover{
+    text-shadow: 5px 5px 10px #1589FF;
 }
 .searchbar{
     position: absolute;
