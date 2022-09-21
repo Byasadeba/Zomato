@@ -47,11 +47,18 @@ header{
     font-size: 30px;
     font-weight: bold;   
 }
+#logo:hover{
+    border:2px solid #1589FF;
+    color: #1589FF;
+}
 #logo span{
     position:absolute;
     margin-left:14%;
     margin-top:32%;  
 }
+/* #logo span:hover{
+    color: #1589FF;
+} */
 #heading{
     font-size:60px;
     color: aliceblue;
@@ -276,16 +283,16 @@ footer a{
     }
     #logo{
         margin-left:33%;
-        margin-top:29%;  
+        margin-top:37%;  
     }
     #heading{
-        font-size: 30px;
-        margin-left: 12%;
-        margin-top: 77%;
+        font-size: 29px;
+        margin-left: 9%;
+        margin-top: 87%;
     }
     .searchbar{
         margin-top: 470px;
-        margin-left: 21px;
-        width: 184%;
+        margin-left: 5px;
+        width: 194%;
     }
 }
