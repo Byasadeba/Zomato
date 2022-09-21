@@ -277,7 +277,7 @@ footer a{
         width: 186%;
     }
 }
-@media screen and (max-width :  400px) {
+@media screen and (max-width :  450px) {
     .locations-div{
         margin-bottom: 10px;
     }
@@ -286,7 +286,7 @@ footer a{
         margin-top:37%;  
     }
     #heading{
-        font-size: 24px;
+        font-size: 29px;
         margin-left: 9%;
         margin-top: 87%;
     }
