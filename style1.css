@@ -296,3 +296,22 @@ footer a{
         width: 194%;
     }
 }
+@media screen and (max-width :  360px) {
+    .locations-div{
+        margin-bottom: 10px;
+    }
+    #logo{
+        margin-left:33%;
+        margin-top:37%;  
+    }
+    #heading{
+        font-size: 26px;
+        margin-left: 6%;
+        margin-top: 101%;
+    }
+    .searchbar{
+        margin-top: 470px;
+        margin-left: 5px;
+        width: 194%;
+    }
+}
