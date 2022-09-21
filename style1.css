@@ -48,7 +48,7 @@ header{
     border:2px solid #1589FF;
     color: #1589FF;
     transform:scale(1.1);
-    animation: dance 2s  ;
+    animation: dance 2s;
 }
 @keyframes dance{
     0% {transform:rotate(360deg)}
