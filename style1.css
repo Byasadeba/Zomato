@@ -47,13 +47,8 @@ header{
 #logo:hover{
     border:2px solid #1589FF;
     color: #1589FF;
-    transform:scale(1.1)
-}
-#logo span{
-    position:absolute;
-    margin-left:14%;
-    margin-top:32%; 
-    animation: dance 2s  ; 
+    transform:scale(1.1);
+    animation: dance 2s  ;
 }
 @keyframes dance{
     0% {transform:rotate(360deg)}
@@ -68,6 +63,13 @@ header{
     95% {transform:rotate(45deg)}
     100% {transform:rotate(0deg)}
 }
+#logo span{
+    position:absolute;
+    margin-left:14%;
+    margin-top:32%; 
+     
+}
+
 #heading{
     font-size:60px;
     color: aliceblue;
